@@ -42,9 +42,22 @@ obj3.b.c = 4;
 console.log(obj4); // { a: 0, b: { c: 0 } }
 
 
-console.log(Object.keys(regularUser));
-console.log(Object.values(regularUser));
-console.log(Object.entries(regularUser));
+// console.log(Object.keys(regularUser));
+// console.log(Object.values(regularUser));
+// console.log(Object.entries(regularUser));
+
+// console.log(regularUser.hasOwnProperty('isLoggedIn'));
+
+const course = {
+    courseName : "Js",
+    price : "999",
+    courseInstructor : "tanmay shimpi"
+}
+
+const {courseInstructor: instructor} = course ;
+console.log(instructor);
+
+
 
 
 
