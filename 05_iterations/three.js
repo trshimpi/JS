@@ -25,6 +25,7 @@ map.set('IN', "India")
 
 // console.log(map);
 
+// use [key ,value] for map while using for .. of loop  
 for (const [key, value] of map) {
     // console.log(key, ':-', value);
 }
@@ -34,6 +35,7 @@ const myObject = {
     game2: 'Spiderman'
 }
 
+// for .. of doesn't work for myObject 
 // for (const [key, value] of myObject) {
 //     console.log(key, ':-', value);
     

@@ -11,8 +11,9 @@ for (const key in myObject) {
 
 const programming = ["js", "rb", "py", "java", "cpp"]
 
+// for .. in will give keys of array always
 for (const key in programming) {
-    // console.log(programming[key]);
+    console.log(programming[key]);
 }
 
 const map = new Map()
